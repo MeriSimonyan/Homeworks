@@ -53,7 +53,7 @@ console.log(secondMax)
 
 
 //6
-let number = 5
+function rectangle (number) {
 let res = ''
 for (let i = 0; i < number; i++) {
 let row = ''
@@ -63,7 +63,8 @@ row += ' * '
 res+= row
 res+= '\n'
 }
-console.log(res)
+return res 
+}
 
 
 

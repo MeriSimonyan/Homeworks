@@ -1,7 +1,7 @@
 //1 ???
 function Fib (n)
 {
-constarr = [1,1]
+const arr = [1,1]
 for (let i = 2; i <= n; i++) {
 arr[i] = arr[i - 2] + arr[i - 1]
 }  
